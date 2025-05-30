@@ -30,6 +30,17 @@ export class TelephoneListComponent implements OnInit{
     })
   }
 
+  deleteTelephone(id:number): void {
+
+      this.service.deleteTelephone(id).subscribe({
+        next: ()=>{
+          this.telephones = this.telephones.filter(e => e.id !== id)
+        },
+        error: (err) => console.log(err)
+      })
+
+  }
+
 
 
 }
