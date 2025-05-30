@@ -22,7 +22,7 @@ namespace TTMS
 
             builder.Services.AddCors(options => options.AddPolicy("AngularPolicy", policy =>
             {
-                policy.WithOrigins("").AllowAnyHeader().AllowAnyHeader();
+                policy.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyHeader();
 
             }));
 
