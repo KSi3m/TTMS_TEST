@@ -3,10 +3,10 @@
 
     <p>{{tel.id}} --- {{tel.name}} --- {{tel.number}}
 
-    <button>Edit</button>
+    <button (click)="editTelephone(tel.id)">Edit</button>
     <button (click)="deleteTelephone(tel.id)">
         Delete
-    </button>
+    </button >
     </p>
     
     

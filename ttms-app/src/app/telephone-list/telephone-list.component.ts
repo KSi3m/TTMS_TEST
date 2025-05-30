@@ -41,6 +41,10 @@ export class TelephoneListComponent implements OnInit{
 
   }
 
+  editTelephone(id:number): void {
+     this.router.navigate(['/edit',id])
+  }
+
 
 
 }
