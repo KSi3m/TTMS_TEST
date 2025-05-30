@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TTMS\\TTMS_TEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|e:\\ttms\\ttms_test\\ttms\\controllers\\telephonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|solutionrelative:ttms\\controllers\\telephonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|e:\\ttms\\ttms_test\\ttms\\entities\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|solutionrelative:ttms\\entities\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|e:\\ttms\\ttms_test\\ttms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|solutionrelative:ttms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|e:\\ttms\\ttms_test\\ttms\\repositories\\telephonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|solutionrelative:ttms\\repositories\\telephonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|e:\\ttms\\ttms_test\\ttms\\repositories\\itelephonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|solutionrelative:ttms\\repositories\\itelephonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|e:\\ttms\\ttms_test\\ttms\\ttms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E8A412D-1D22-4122-8EE6-8880A4940DB5}|TTMS\\TTMS.csproj|solutionrelative:ttms\\ttms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TelephoneController.cs",
+              "DocumentMoniker": "E:\\TTMS\\TTMS_TEST\\TTMS\\Controllers\\TelephoneController.cs",
+              "RelativeDocumentMoniker": "TTMS\\Controllers\\TelephoneController.cs",
+              "ToolTip": "E:\\TTMS\\TTMS_TEST\\TTMS\\Controllers\\TelephoneController.cs",
+              "RelativeToolTip": "TTMS\\Controllers\\TelephoneController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:20:36.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelephoneRepository.cs",
+              "DocumentMoniker": "E:\\TTMS\\TTMS_TEST\\TTMS\\Repositories\\TelephoneRepository.cs",
+              "RelativeDocumentMoniker": "TTMS\\Repositories\\TelephoneRepository.cs",
+              "ToolTip": "E:\\TTMS\\TTMS_TEST\\TTMS\\Repositories\\TelephoneRepository.cs",
+              "RelativeToolTip": "TTMS\\Repositories\\TelephoneRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwDkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:13:16.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITelephoneRepository.cs",
+              "DocumentMoniker": "E:\\TTMS\\TTMS_TEST\\TTMS\\Repositories\\ITelephoneRepository.cs",
+              "RelativeDocumentMoniker": "TTMS\\Repositories\\ITelephoneRepository.cs",
+              "ToolTip": "E:\\TTMS\\TTMS_TEST\\TTMS\\Repositories\\ITelephoneRepository.cs",
+              "RelativeToolTip": "TTMS\\Repositories\\ITelephoneRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:11:24.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TTMS",
+              "DocumentMoniker": "E:\\TTMS\\TTMS_TEST\\TTMS\\TTMS.csproj",
+              "RelativeDocumentMoniker": "TTMS\\TTMS.csproj",
+              "ToolTip": "E:\\TTMS\\TTMS_TEST\\TTMS\\TTMS.csproj",
+              "RelativeToolTip": "TTMS\\TTMS.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-30T07:10:57.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\TTMS\\TTMS_TEST\\TTMS\\Program.cs",
+              "RelativeDocumentMoniker": "TTMS\\Program.cs",
+              "ToolTip": "E:\\TTMS\\TTMS_TEST\\TTMS\\Program.cs",
+              "RelativeToolTip": "TTMS\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBMAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:10:52.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Telephone.cs",
+              "DocumentMoniker": "E:\\TTMS\\TTMS_TEST\\TTMS\\Entities\\Telephone.cs",
+              "RelativeDocumentMoniker": "TTMS\\Entities\\Telephone.cs",
+              "ToolTip": "E:\\TTMS\\TTMS_TEST\\TTMS\\Entities\\Telephone.cs",
+              "RelativeToolTip": "TTMS\\Entities\\Telephone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:10:49.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

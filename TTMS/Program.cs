@@ -20,6 +20,12 @@ namespace TTMS
             //sytuacja wyj¹tkowa ¿e repozytorium jest singletonem xd
             builder.Services.AddSingleton<ITelephoneRepository,TelephoneRepository>();
 
+            builder.Services.AddCors(options => options.AddPolicy("AngularPolicy", policy =>
+            {
+                policy.WithOrigins("").AllowAnyHeader().AllowAnyHeader();
+
+            }));
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -29,10 +35,12 @@ namespace TTMS
                 app.UseSwaggerUI();
             }
 
+            app.UseCors("AngularPolicy");
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+           
 
             app.MapControllers();
 

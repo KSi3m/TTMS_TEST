@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "TTMS.Controllers.TelephoneController",
+    "Method": "GetTelephones",
+    "RelativePath": "api/telephones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TTMS.Entities.Telephone, TTMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TTMS.Controllers.TelephoneController",
+    "Method": "CreateTelephone",
+    "RelativePath": "api/telephones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "telDto",
+        "Type": "TTMS.Dtos.CreateTelephoneDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TTMS.Controllers.TelephoneController",
+    "Method": "GetTelephoneById",
+    "RelativePath": "api/telephones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TTMS.Entities.Telephone",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TTMS.Controllers.TelephoneController",
+    "Method": "DeleteTelephone",
+    "RelativePath": "api/telephones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TTMS.Controllers.TelephoneController",
+    "Method": "UpdateTelephone",
+    "RelativePath": "api/telephones/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "telDto",
+        "Type": "TTMS.Dtos.CreateTelephoneDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
