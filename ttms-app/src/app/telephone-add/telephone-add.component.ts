@@ -3,11 +3,12 @@ import { TelephoneService } from '../telephone.service';
 import { Telephone } from '../Telephone';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-telephone-add',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './telephone-add.component.html',
   styleUrl: './telephone-add.component.css'
 })

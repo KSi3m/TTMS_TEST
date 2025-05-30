@@ -1,10 +1,22 @@
 <form (ngSubmit)="onSubmit()">
 
     <label> Name </label>
-    <input type = "text" name ="name" [(ngModel)]="telephone.name">
+    <input #name="ngModel" type = "text" name ="name" maxlength="15"  [(ngModel)]="telephone.name">
+      <div *ngIf="name.invalid && (name.touched || name.dirty)">
+            <div class = "text-danger" *ngIf="name.errors?.['maxlength']">
+                    Name max length is 15
+      </div>
+    </div>
 
     <label> Number </label>
-    <input type = "text" name ="number" [(ngModel)]="telephone.number">
+    <input #number="ngModel" type = "text" name ="number" minlength="9" maxlength="9"  [(ngModel)]="telephone.number">
+
+    <div  *ngIf="number.invalid && (number.touched || number.dirty)">
+            <div class = "text-danger" *ngIf="number.errors?.['minlength']">
+                    Number has to be exactly 9 digits
+      </div>
+    </div>
+  
 
     <button type="submit"> Add </button>
 

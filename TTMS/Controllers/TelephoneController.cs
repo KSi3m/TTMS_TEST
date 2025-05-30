@@ -44,8 +44,12 @@ namespace TTMS.Controllers
         [HttpPost]
         public ActionResult CreateTelephone(CreateTelephoneDto telDto)
         {
-            var res = _telephoneRepository.CreateTelephone(telDto);
-            if (res) return StatusCode(201);
+            if(ModelState.IsValid)
+            {
+                var res = _telephoneRepository.CreateTelephone(telDto);
+                if (res) return StatusCode(201);
+                return BadRequest();
+            }
             return BadRequest();
         }
 
@@ -53,8 +57,12 @@ namespace TTMS.Controllers
         [Route("{id}")]
         public ActionResult UpdateTelephone(int id, CreateTelephoneDto telDto)
         {
-            var res = _telephoneRepository.UpdateTelephone(id,telDto);
-            if (res) return NoContent();
+            if (ModelState.IsValid)
+            {
+                var res = _telephoneRepository.UpdateTelephone(id, telDto);
+                if (res) return NoContent();
+                return BadRequest();
+            }
             return BadRequest();
         }
 
