@@ -1,4 +1,6 @@
 
+using TTMS.Repositories;
+
 namespace TTMS
 {
     public class Program
@@ -13,6 +15,10 @@ namespace TTMS
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
+            //sytuacja wyj¹tkowa ¿e repozytorium jest singletonem xd
+            builder.Services.AddSingleton<ITelephoneRepository,TelephoneRepository>();
 
             var app = builder.Build();
 
