@@ -1,15 +1,34 @@
 <p>Id --- Name --- Number</p>
 
-@for (tel of telephones; track $index) {
+@defer () {
 
-    <p>{{tel.id}} --- {{tel.name}} --- {{tel.number}}
+    @for (tel of telephones; track $index) {
 
-    <button (click)="editTelephone(tel.id)">Edit</button>
-    <button (click)="deleteTelephone(tel.id)">
-        Delete
-    </button >
-    </p>
-    
-    
+        <p>{{tel.id}} --- {{tel.name}} --- {{tel.number}}
 
+        <button (click)="editTelephone(tel.id)">Edit</button>
+        <button (click)="deleteTelephone(tel.id)">
+            Delete
+        </button >
+        </p>
+    }
 }
+@placeholder {
+
+     <p>*** --- *** --- ***
+
+        <button disabled >Edit</button>
+        <button disabled>
+            Delete
+        </button >
+        </p>
+}
+@loading (minimum 2s) {
+
+     <p> Loading data....</p>
+}
+@error {
+  <p>Failed to load large component.</p>
+}
+
+
