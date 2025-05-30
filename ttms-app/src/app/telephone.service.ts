@@ -33,7 +33,7 @@ export class TelephoneService {
   }
   createTelephone(telephone: Telephone) : Observable<void>
   {
-    return this.http.put<void>(this.apiUrl,telephone);
+    return this.http.post<void>(this.apiUrl,telephone);
   }
 
 }
